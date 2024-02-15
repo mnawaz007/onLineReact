@@ -1,0 +1,23 @@
+.examples{
+    display: flex;
+    
+}
+button{
+    padding: 0.5rem 1rem;
+    border: 2px solid rgb(201, 109, 125);
+    border-radius: 6px;
+    background-color: transparent;
+    color: #0d0515;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+button:hover{
+    background-color: #d2b3f3;
+    color: #ebe7ef;
+}
+.active{
+    background-color: #7925d3;
+    color: #ebe7ef;    
+}
